@@ -8,7 +8,7 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 ```
 
 ## Install & Configure DNSMasq
-* Run the following (from https://github.com/wingsuitist/brewamp/blob/master/src/dnsmasq.sh):
+* From Terminal, run the following (from https://github.com/wingsuitist/brewamp/blob/master/src/dnsmasq.sh):
 
 ```
 if (brew services list|grep dnsmasq); then
@@ -36,7 +36,7 @@ fi
 ## Generate the SSL Certificate
 from https://gist.github.com/jed/6147872
 
-* Open the command line and cd into the root folder of your project.
+* Open Terminal and cd into the root folder of your project.
 
 * Create a temporary configuration file:
 
